@@ -4,7 +4,7 @@ import Header from './common/Header';
 
 const HeroSection = () => {
     return (
-        <section id='hero' className="lg:min-h-screen flex flex-col items-center bg-[#1E71FF]">
+        <section id='hero' className="lg:min-h-screen 2xl:min-h-fit flex flex-col items-center bg-[#1E71FF]">
           <Header/>
             <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-3 md:py-12 py-8 mt-24">
                 <div className="mb-12 text-center md:text-left">
