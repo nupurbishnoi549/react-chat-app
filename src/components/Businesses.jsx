@@ -1,6 +1,7 @@
 import React from 'react'
 import group from '../assets/images/png/group.png';
-import star from '../assets/images/svg/star.svg'
+import star from '../assets/images/svg/star.svg';
+import CustomBtn from './common/CustomBtn';
 
 const Businesses = () => {
     return (
@@ -22,12 +23,9 @@ const Businesses = () => {
                                     Pricing plans that fit like a glove.
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4 lg:mb-12 mb-8  justify-left lg:justify-start xl:mb-24">
-                                    <button className="text-[#1E71FF] cursor-pointer rounded-full border border-[#1E71FF] px-11 py-[14px] text-sm font-medium transition-all duration-300 hover:bg-[#1E71FF] hover:text-white hover:scale-105">
-                                        Try it Free
-                                    </button>
-                                    <button className="cursor-pointer text-[#1E71FF] rounded-full border border-[#1E71FF] px-10 py-[14px] text-sm font-medium transition-all duration-300 hover:bg-[#1E71FF] hover:text-white hover:scale-105">
-                                        Get a Demo
-                                    </button>
+                                    <CustomBtn text=" Try it Free" myClass="hover:!bg-[#1E71FF] !text-[#1E71FF] hover:!text-white !border !border-[#1E71FF]"/>
+
+                                    <CustomBtn text="  Get a Demo" myClass="hover:!bg-[#1E71FF] !text-[#1E71FF] hover:!text-white !border !border-[#1E71FF]" />
                                 </div>
                                 <div className="w-[167px] h-px bg-gray-300 lg:mb-11 mb-8"></div>
                                 <div className="flex items-center gap-8 md:justify-left lg:justify-start mb-4">

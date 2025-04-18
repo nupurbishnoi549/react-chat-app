@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import CustomBtn from './CustomBtn';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -36,9 +37,7 @@ const Header = () => {
                     <li><a href="#businesses" className="text-white text-sm font-medium">Contact</a></li>
                     <li><a href="#footer" className="text-white text-sm font-medium">Log In</a></li>
                     <li>
-                        <button className="bg-[#4B8DFF] cursor-pointer text-white rounded-full px-6 py-3 text-sm font-medium">
-                            Try It Free
-                        </button>
+                        <CustomBtn text=" Try it Free" myClass="hover:!bg-white bg-[#4B8DFF] !py-3 !px-6 !text-white hover:!text-[#1E71FF] !border !border-[#1E71FF]" />
                     </li>
                 </ul>
             </nav>

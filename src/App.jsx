@@ -3,15 +3,17 @@ import Hero from './components/Hero'
 import Chat from './components/Chat'
 import Businesses from './components/Businesses'
 import Footer from './components/Footer'
+import BackToTop from './components/common/BackToTop'
 
 const App = () => {
   return (
-    <div>
+    <>
       <Hero />
       <Chat />
       <Businesses />
       <Footer />
-    </div>
+      <BackToTop/>
+    </>
   )
 }
 
